@@ -98,7 +98,7 @@ class ViewController: UIViewController {
       }) else {
       return
     }
-    herbDetails.modalPresentationStyle = .overFullScreen
+    herbDetails.modalPresentationStyle = .popover
     herbDetails.transitioningDelegate = self
     present(herbDetails, animated: true, completion: nil)
   }

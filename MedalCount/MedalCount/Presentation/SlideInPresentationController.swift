@@ -76,6 +76,7 @@ class SlideInPresentationController: UIPresentationController {
 private extension SlideInPresentationController {
   func setupDimmingView() {
     dimmingView = UIView()
+    dimmingView.tag = 1902
     dimmingView.translatesAutoresizingMaskIntoConstraints = false
     dimmingView.backgroundColor = UIColor(white: 0.0, alpha: 0.5)
     dimmingView.alpha = 0.0
